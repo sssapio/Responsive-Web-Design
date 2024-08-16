@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+  <h2 id="firsttext">freeCodeCamp Survey Form</h1>
+  <p id="descr">Thank you for taking time to help us improve the platform</p>
+  <section class="form">
+    <label class="label" for="text" style="margin-bottom: 8px;">Name</label>
+    <input type="text" placeholder="Enter your name" id="text" required>
+    <label for="email"style="margin-bottom: 8px;">Email</label>
+    <input type="email" placeholder="Enter your Email" id="email" required>
+    <label for="number"style="margin-bottom: 8px;">Age<span>(optional)</span></label>
+    <input type="number" placeholder="Age" min="10" max="99" id="number" required>
+    <label for="dropdown"style="margin-bottom: 8px;">Which option best describes your current role</label>
+    <select name="current" id="dropdown" required>
+      <option value="0">Select current role</option>
+      <option value="1">Student</option>
+      <option value="2">Full time job</option>
+    </select>
+    
+    <label class="questions"style="margin-bottom: 8px;">Would you recommend freeCodeCamp to a friend</label>
+    <div class="radiogroup">
+    <div><input type="radio" name="radio" id="def"> <label for="def" required>Definitely</label></div>
+    <div><input type="radio" name="radio" id="may"> <label for="may" required>Maybe</label></div>
+    <div><input type="radio" name="radio" id="not"> <label for="not" required>Not Sure</label></div>
+  </div>
+    <label style="margin-bottom: 8px;">What is your favorite feature of freeCodeCamp</label>
+    <select name="option" id="opt">
+      <option value="0">Select an option</option>
+      <option value="1">Challenges</option>
+      <option value="2">Projects</option>
+    </select>
+    <label class="questions">What would you like to see improved</label><label style="margin-bottom: 8px;">(Check all that apply)</label>
+    <div class="radiogroup">
+    <div><input type="checkbox" id="frontend"> <label for="frontend">Front-end Projects</label></div>
+    <div><input type="checkbox" id="backend"> <label for="backend">Back-end Projects</label></div>
+    <div><input type="checkbox" id="data"> <label for="data">Data Visualization</label></div>
+    <div><input type="checkbox" id="Challenges"> <label for="Challenges">Challenges</label></div>
+    <div><input type="checkbox" id="ops"> <label for="ops">Open Source Community</label></div>
+    </div>
+    <label class="questions" style="margin-bottom: 8px;">Any comments or suggestions?</label>
+    <textarea name="comments" id="comments" rows="5" cols="20">Enter your coments here...</textarea>
+    <button type="submit" id="submit" method="post">Submit</button>
+  </section>
+</div>
+</body>
+</html>
