@@ -1,0 +1,46 @@
+body {
+    background-color: #fefbea;
+  }
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #333;
+  }
+  .nav-link {
+    display: block;
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  main {
+    margin-left: 300px;
+  }
+  #navheader {
+    font-size: large;
+  }
+   @media (max-width: 600px) {
+              nav {
+                  width: 100%; /* Full width for small screens */
+                  height: auto; /* Height adjusts to content */
+                  position: relative; /* Normal flow */
+              }
+  
+              main {
+                  margin-left: 0; /* Remove left margin for small screens */
+              }
+  
+              nav a {
+                  padding: 10px; /* Adjust padding for smaller links */
+              }
+          }
+  
+  
