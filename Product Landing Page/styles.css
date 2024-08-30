@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 520px){
+    body {
+      font-family: Baskervville, sans-serif;
+    }
+  }
+  body {
+    background-color: lightgray;
+    box-sizing: border-box;
+  
+  }
+  .form1 {
+    text-align: center;
+    padding: 20px;
+  }
+  input[placeholder] {
+    width: 400px;
+    margin: 10px 0 0 0;
+    padding: 5px
+  }
+  input[value] {
+    width: 200px;
+    padding: 5px 0;
+  }
+  #header-img {
+    width: 300px;
+  }
+  #header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  #nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #nav-bar ul li {
+    margin: 15px 15px;
+  }
+  #nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  main {
+    padding: 60px 20px;
+    height: 2000px;
+  }
+  #how-it-works {
+    display: flex;
+    justify-content: center;
+  }
+  #pricing {
+    display: flex;
+    text-align: center;
+    margin: 2px 50px;
+    justify-content: space-evenly;
+  }
+  .ff {
+    display: block;
+  }
+  #features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
